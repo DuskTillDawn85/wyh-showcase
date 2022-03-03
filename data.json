@@ -2,252 +2,68 @@
     "product": [
         {
             "index": 1,
-            "model": "视觉感知能力",
-            "cover": "/img/nav_visual_perception.png",
+            "model": "校园文创设计",
             "description": "",
             "data": [
                 {
-                    "title": "目标识别",
-                    "description": "提供图像中的物体、场景识别能力",
-                    "cover": "/img/img_target_recognition.png",
-                    "scene": [
-                        {
-                            "title": "人目标检测",
-                            "description": "目标识别，到底应该如何实现。了解清楚目标识别到底是一种怎么样的存在，是解决一切问题的关键。",
-                            "attr": {},
-                            "image": "https://picsum.photos/570/380",
-                            "video": ""
-                        },
-                        {
-                            "title": "电瓶车检测",
-                            "description": "布尔沃在不经意间这样说过，要掌握书，莫被书掌握；要为生而读，莫为读而生。",
-                            "attr": {},
-                            "image": "https://picsum.photos/570/350",
-                            "video": ""
-                        }
-                    ]
+                    "title": "卡套设计",
+                    "description": "新生文创卡套设计",
+                    "cover": "/img/3-1.jpg"
                 },
                 {
-                    "title": "人脸识别",
-                    "description": "提供图像或视频中的人脸检测、识别、对比能力",
-                    "cover": "/img/img_face_recognition.png",
-                    "scene": [
-                        {
-                            "title": "人脸检测",
-                            "description": "生活中，富兰克林在不经意间这样说过，读书是易事，思索是难事，但两者缺一，便全无用处。",
-                            "attr": {},
-                            "image": "https://picsum.photos/800/580",
-                            "video": ""
-                        },
-                        {
-                            "title": "人脸朝向",
-                            "description": " 美华纳在不经意间这样说过，勿问成功的秘诀为何，且尽全力做你应该做的事吧.人脸检测，到底应该如何实现。",
-                            "attr": {},
-                            "image": "https://picsum.photos/802/580",
-                            "video": ""
-                        },
-                        {
-                            "title": "疲劳监测",
-                            "description": "富兰克林说过一句富有哲理的话，你热爱生命吗？那么别浪费时间，因为时间是组成生命的材料。人脸检测，发生了会如何，不发生又会如何。",
-                            "attr": {},
-                            "image": "https://picsum.photos/803/580",
-                            "video": ""
-                        },
-                        {
-                            "title": "AI换脸",
-                            "description": "在不利与艰难的遭遇里百折不饶。要想清楚，人脸检测，到底是一种怎么样的存在。 可是，即使是这样，人脸检测的出现仍然代表了一定的意义。人脸检测，发生了会如何，不发生又会如何。",
-                            "attr": {},
-                            "image": "https://picsum.photos/804/580",
-                            "video": ""
-                        }
-                    ]
+                    "title": "笔记本设计",
+                    "description": "院学代会笔记本设计",
+                    "cover": "/img/3-2.jpg"
                 },
                 {
-                    "title": "人体识别",
-                    "description": "提供人体检测与追踪、关键点定位、人流量统计、属性识别、行为分析等能力",
-                    "cover": "/img/img_human_body_recognition.png",
-                    "scene": [
-                        {
-                            "title": "人体识别",
-                            "description": "每个人都不得不面对这些问题。 在面对这种问题时， 一般来说， 我们都知道，只要有意义，那么就必须慎重考虑。 人体识别因何而发生？",
-                            "attr": {},
-                            "image": "https://picsum.photos/560/382",
-                            "video": ""
-                        },
-                        {
-                            "title": "人体关节点识别",
-                            "description": "对于人体识别问题，需要我们发扬钉钉子的精神，一锤一锤敲下去，将科学性干在实处，做到细处，落在深处。",
-                            "attr": {},
-                            "image": "https://picsum.photos/560/381",
-                            "video": ""
-                        }
-                    ]
+                    "title": "帆布包设计",
+                    "description": "院学代会文创设计(帆布包)",
+                    "cover": "/img/3-3.jpg"
                 },
                 {
-                    "title": "手势识别",
-                    "description": "提供图像中的手部位置、手势姿势、手肘关键目标识别等能力",
-                    "cover": "/img/img_gesture_recognition.png",
-                    "scene": [
-                        {
-                            "title": "手部检测",
-                            "description": "求真务实，抓好手势识别调研工作，提高质量，做好手势识别信息工作，紧跟进度，抓好手势识别督查工作，高效规范，抓好手势识别文秘工作。",
-                            "attr": {},
-                            "image": "https://picsum.photos/561/380",
-                            "video": ""
-                        },
-                        {
-                            "title": "手部关节点识别",
-                            "description": "对我个人而言，手部关节点识别不仅仅是一个重大的事件，还可能会改变我的人生。 所谓手部关节点识别，关键是手部关节点识别需要如何写。",
-                            "attr": {},
-                            "image": "https://picsum.photos/562/380",
-                            "video": ""
-                        },
-                        {
-                            "title": "手势识别",
-                            "description": "所谓手部关节点识别，关键是手部关节点识别需要如何写。既然如何，要想清楚，手部关节点识别，到底是一种怎么样的存在。 了解清楚手部关节点识别到底是一种怎么样的存在，是解决一切问题的关键。",
-                            "attr": {},
-                            "image": "https://picsum.photos/563/380",
-                            "video": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "index": 2,
-            "model": "无人系统能力",
-            "cover": "/img/nav_unmanned_system.png",
-            "description": "",
-            "data": [
-                {
-                    "title": "建图定位",
-                    "img": [
-                        "/img/img_mapping_positioning.png",
-                        "https://picsum.photos/360"
-                    ]
-                },
-                {
-                    "title": "目标定位追踪",
-                    "img": [
-                        "/img/img_track.png",
-                        "https://picsum.photos/360"
-                    ]
-                },
-                {
-                    "title": "运动控制",
-                    "img": [
-                        "/img/img_sport_control.png",
-                        "https://picsum.photos/360"
-                    ]
-                },
-                {
-                    "title": "多车调度",
-                    "img": [
-                        "/img/img_scheduling.png",
-                        "https://picsum.photos/360"
-                    ]
+                    "title": "文创设计",
+                    "description": "院学代会文创设计(整体)",
+                    "cover": "/img/3-4.jpg"
                 }
             ]
         },
         {
             "index": 3,
-            "model": "视觉感知云平台",
-            "cover": "/img/nav_visual_perception_platform.png",
-            "description": "一站式的视觉感知服务，支持集群、单机、嵌入式部署",
+            "model": "专业比赛证书",
+            "description": "广告专业参赛获奖证书",
             "data": [
                 {
                     "title": "相机",
-                    "description": "用于管理发布的相机，查看组织内的相机信息以及预览有权限的相机画面。",
-                    "img": "/img/icon_camera@3x.svg"
-                },
-                {
-                    "title": "能力",
-                    "description": "用于管理发布的能力、查看组织内的能力信息。",
-                    "img": "/img/icon_ai@3x.svg"
-                },
-                {
-                    "title": "感知",
-                    "description": "用于管理由能力生成的感知，在感知下添加相机生成事件以及预览感知后的相机画面。",
-                    "img": "/img/icon_sense@3x.svg"
-                },
-                {
-                    "title": "可视",
-                    "description": "用于查看感知后的相机画面以及组合画面。",
-                    "img": "/img/icon_vision@3x.svg"
-                },
-                {
-                    "title": "事件",
-                    "description": "用于管理由能力生成的感知、在感知下添加相机生成事件以及预览感知后的相机画面。",
-                    "img": "/img/icon_event@3x.svg"
-                },
-                {
-                    "title": "数据",
-                    "description": "用于管理由能力生成的感知、在感知下添加相机生成事件以及预览感知后的相机画面。",
-                    "img": "/img/icon_data@3x.svg"
-                }
-            ]
-        },
-        {
-            "index": 4,
-            "model": "视觉感知一体机",
-            "cover": "/img/nav_one_machine.png",
-            "description": "为用户提供自定义能力和硬件配置，预置系统、平台及能力，能力开机即用",
-            "data": [
-                {
-                    "name": "目标识别",
-                    "gpu": 2,
-                    "event": 10
-                },
-                {
-                    "name": "人脸识别",
-                    "gpu": 1,
-                    "event": 5
-                }
-            ]
-        },
-        {
-            "index": 5,
-            "model": "智能模组",
-            "cover": "/img/nav_smart_module.png",
-            "description": "为用户提供可集成开发的智能模组及智能产品",
-            "data": [
-                {
-                    "title": "三维感知模组",
-                    "img": "/img/img_three_perceive.png"
-                },
-                {
-                    "title": "ESRC",
-                    "img": "/img/img_esrc.png"
-                },
-                {
-                    "title": "光电吊舱",
-                    "img": "/img/img_photoelectric_pod.png"
-                },
-                {
-                    "title": "呼救器",
-                    "img": "/img/img_helper.png"
+                    "description": "...",
+                    "img": "/img/1-1.png"
                 }
             ]
         }
     ],
     "cases": [
         {
-            "title": "工业流水线行为操作",
-            "field": "智慧工业",
-            "description": "云端服务器解码视频流后对画面内的操作行为判断是否装配螺丝异常；云端服务器将识别结果反馈给流水线工位上的警告模块即时提醒工人检查装配目标。",
-            "cover": "/img/img_smart_industry.png"
+            "title": "榄菊学院奖-杠精清除计划",
+            "field": "营销策划作品",
+            "description": "“杠”是一种行为，也可以是一种质疑或否认，甚至是攻击。 然而当“杠精”遇上蚊子，二者又会产生什么样的化学反应？",
+            "cover": "/img/1-1.png"
         },
         {
-            "title": "学前教育大数据平台",
-            "field": "智慧教育",
-            "description": "提供学前教育教师资源库信息服务、学前教育资源供需信息与推送服务；提供学前儿童身心发展指数监测服务、学前教育决策支持服务。",
-            "cover": "/img/img_wisdom_education.png"
+            "title": "Eye的新蒸程 莎普爱思热敷蒸汽眼罩营销策划案 ",
+            "field": "营销策划作品",
+            "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
+            "cover": "/img/1-2.png"
         },
         {
-            "title": "社区服务",
-            "field": "智慧社区",
-            "description": "云端服务器解码视频流后对画面内的操作行为判断是否装配螺丝异常；云端服务器将识别结果反馈给流水线工位上的警告模块即时提醒工人检查装配目标。",
-            "cover": "/img/img_smart_community.png"
+            "title": "班级微信公众号运营数据情况",
+            "field": "公众号运营",
+            "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
+            "cover": "/img/4-1.png"
+        },
+        {
+            "title": "班团活动组织",
+            "field": "营销策划作品",
+            "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
+            "cover": "/img/4-2.png"
         }
     ]
 }
