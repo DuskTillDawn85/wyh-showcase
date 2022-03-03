@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_close@3x</title>
+    <g id="页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Astore" transform="translate(-1468.000000, -102.000000)" stroke="#979797" stroke-width="2">
+            <g id="icon_close" transform="translate(1503.000000, 137.000000) rotate(-315.000000) translate(-1503.000000, -137.000000) translate(1479.686904, 113.686904)">
+                <line x1="39.7979448" y1="6.82824782" x2="6.82824782" y2="39.7979448" id="路径" transform="translate(23.313096, 23.313096) rotate(315.000000) translate(-23.313096, -23.313096) "></line>
+                <line x1="39.7979448" y1="39.7979448" x2="6.82824782" y2="6.82824782" id="路径" transform="translate(23.313096, 23.313096) rotate(315.000000) translate(-23.313096, -23.313096) "></line>
+            </g>
+        </g>
+    </g>
+</svg>
