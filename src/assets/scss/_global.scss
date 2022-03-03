@@ -1,0 +1,35 @@
+#app {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial,
+    sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*::selection {
+  background-color: #ff7f0060;
+}
+*::-moz-selection {
+  background-color: #ff7f0060;
+}
+
+html,
+body {
+  @include scroll-bar;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+textarea {
+  @include scroll-bar;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial,
+    sans-serif !important;
+}

@@ -1,16 +1,8 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import './registerServiceWorker'
-import router from './router'
-import vuetify from './plugins/vuetify'
-import '@babel/polyfill'
-import 'roboto-fontface/css/roboto/roboto-fontface.css'
-import '@mdi/font/css/materialdesignicons.css'
+import ElementPlus from 'element-plus'
+import VueScrollTo from 'vue-scrollto'
+import "./assets/scss/main.scss";
+import 'element-plus/dist/index.css'
 
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  vuetify,
-  render: h => h(App)
-}).$mount('#app')
+createApp(App).use(ElementPlus).use(VueScrollTo).mount('#app')

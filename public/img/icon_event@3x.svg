@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_event@3x</title>
+    <g id="页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Astore" transform="translate(-814.000000, -2105.000000)" stroke="#52A8FF" stroke-width="2">
+            <g id="主体" transform="translate(0.000000, 127.000000)">
+                <g id="视觉感知平台" transform="translate(360.000000, 1558.000000)">
+                    <g id="事件" transform="translate(414.000000, 380.000000)">
+                        <g id="icon_event" transform="translate(40.000000, 40.000000)">
+                            <g transform="translate(5.021826, 3.030864)">
+                                <path d="M44,3 C44.8284271,3 45.5784271,3.33578644 46.1213203,3.87867966 C46.6642136,4.42157288 47,5.17157288 47,6 L47,6 L47,44 C47,44.8284271 46.6642136,45.5784271 46.1213203,46.1213203 C45.5784271,46.6642136 44.8284271,47 44,47 L44,47 L2,47 C1.17157288,47 0.421572875,46.6642136 -0.121320344,46.1213203 C-0.664213562,45.5784271 -1,44.8284271 -1,44 L-1,44 L-1,6 C-1,5.17157288 -0.664213562,4.42157288 -0.121320344,3.87867966 C0.421572875,3.33578644 1.17157288,3 2,3 L2,3 Z" id="矩形" transform="translate(23.000000, 25.000000) rotate(-270.000000) translate(-23.000000, -25.000000) "></path>
+                                <line x1="10.9786139" y1="29.9991364" x2="34.9781737" y2="29.9999483" id="路径"></line>
+                                <line x1="10.9786139" y1="19.9991364" x2="34.9781737" y2="19.9999483" id="路径"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
