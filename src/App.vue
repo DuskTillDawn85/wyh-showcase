@@ -22,7 +22,7 @@ const toggleNav = () => (showNav.value = !showNav.value);
 const product = ref([]);
 const cases = ref([]);
 const isLoad = ref(false);
-fetch("/data.json")
+fetch("/wyh-showcase/data.json")
   .then(res => res.json())
   .then(data => {
     product.value = data.product;
