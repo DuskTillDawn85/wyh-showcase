@@ -8,22 +8,22 @@
                 {
                     "title": "卡套设计",
                     "description": "新生文创卡套设计",
-                    "cover": "/img/3-1.jpg"
+                    "cover": "./img/3-1.jpg"
                 },
                 {
                     "title": "笔记本设计",
                     "description": "院学代会笔记本设计",
-                    "cover": "/img/3-2.jpg"
+                    "cover": "./img/3-2.jpg"
                 },
                 {
                     "title": "帆布包设计",
                     "description": "院学代会文创设计(帆布包)",
-                    "cover": "/img/3-3.jpg"
+                    "cover": "./img/3-3.jpg"
                 },
                 {
                     "title": "文创设计",
                     "description": "院学代会文创设计(整体)",
-                    "cover": "/img/3-4.jpg"
+                    "cover": "./img/3-4.jpg"
                 }
             ]
         },
@@ -35,7 +35,7 @@
                 {
                     "title": "相机",
                     "description": "...",
-                    "img": "/img/1-1.png"
+                    "img": "./img/1-1.png"
                 }
             ]
         }
@@ -45,25 +45,25 @@
             "title": "榄菊学院奖-杠精清除计划",
             "field": "营销策划作品",
             "description": "“杠”是一种行为，也可以是一种质疑或否认，甚至是攻击。 然而当“杠精”遇上蚊子，二者又会产生什么样的化学反应？",
-            "cover": "/img/1-1.png"
+            "cover": "./img/1-1.png"
         },
         {
             "title": "Eye的新蒸程 莎普爱思热敷蒸汽眼罩营销策划案 ",
             "field": "营销策划作品",
             "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
-            "cover": "/img/1-2.png"
+            "cover": "./img/1-2.png"
         },
         {
             "title": "班级微信公众号运营数据情况",
             "field": "公众号运营",
             "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
-            "cover": "/img/4-1.png"
+            "cover": "./img/4-1.png"
         },
         {
             "title": "班团活动组织",
             "field": "营销策划作品",
             "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
-            "cover": "/img/4-2.png"
+            "cover": "./img/4-2.png"
         }
     ]
 }
