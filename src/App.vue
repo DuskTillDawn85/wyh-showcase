@@ -19,6 +19,8 @@ const modules = [Scrollbar, Pagination, Navigation, EffectFade];
 const showNav = ref(false);
 const toggleNav = () => (showNav.value = !showNav.value);
 
+const preview = url => (window.location.href = url);
+
 // 页面数据加载
 const listdata = ref([]);
 const isLoad = ref(false);
@@ -88,7 +90,11 @@ fetch("/wyh-showcase/data.json")
             </div>
             <div class="model1">
               <swiper :modules="modules" slides-per-view="auto" :freeMode="true" navigation>
-                <swiper-slide class="model-item" v-for="item in model.data" @click="showMore(item)">
+                <swiper-slide
+                  class="model-item"
+                  v-for="item in model.data"
+                  @click="preview(item.cover)"
+                >
                   <img :src="item.cover" />
                   <div>
                     <p>{{ item.title }}</p>
@@ -108,15 +114,18 @@ fetch("/wyh-showcase/data.json")
             <div class="model2">
               <!-- swiper -->
               <swiper
-                @swiper="onSwiper"
                 :modules="modules"
                 slides-per-view="auto"
                 :freeMode="true"
+                centeredSlides
                 navigation
                 loop
-                centeredSlides
               >
-                <swiper-slide class="model2-item" v-for="item in model.data">
+                <swiper-slide
+                  class="model2-item"
+                  v-for="item in model.data"
+                  @click="preview(item.cover)"
+                >
                   <div class="des">{{ item.description }}</div>
                   <img :src="item.cover" />
                 </swiper-slide>
@@ -131,18 +140,16 @@ fetch("/wyh-showcase/data.json")
               <span class="title-desc">{{ model.description }}</span>
             </div>
             <div class="model3">
-              <swiper :modules="modules" slides-per-view="auto" :freeMode="true" navigation>
-                <swiper-slide class="model-item" v-for="item in model.data">
-                  <div class="pdf-content">
-                    <p>{{ item.title }}</p>
-                    <span class="field">{{ item.field }}</span>
-                    <span>{{ item.description }}</span>
-                  </div>
-                  <div class="img-wrap">
-                    <img :src="item.cover" />
-                  </div>
-                </swiper-slide>
-              </swiper>
+              <div class="model3-item" v-for="item in model.data" @click="preview(item.pdf)">
+                <div class="img-wrap">
+                  <img :src="item.cover" />
+                </div>
+                <div class="pdf-content">
+                  <p>{{ item.title }} <span class="tag">PDF</span></p>
+                  <span class="field">{{ item.field }}</span>
+                  <span class="desc">{{ item.description }}</span>
+                </div>
+              </div>
             </div>
           </template>
         </template>
@@ -150,11 +157,8 @@ fetch("/wyh-showcase/data.json")
     </el-main>
 
     <el-footer>
-      Copyright © Shawn 2021
-      <br />
-      <el-link :underline="false" href="https://beian.miit.gov.cn/">
-        网站备案号 浙ICP备19011862号-1
-      </el-link>
+      Copyright © Shawn 2021 | Powered By
+      <el-link :underline="false" href="https://pages.github.com/"> GitHub Pages </el-link>
     </el-footer>
   </el-container>
 </template>
