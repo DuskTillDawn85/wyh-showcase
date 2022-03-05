@@ -82,6 +82,30 @@ fetch("/wyh-showcase/data.json")
       <div class="content-wrap">
         <!-- 内容列表 -->
         <template v-for="model in listdata">
+          
+          <!-- 校园文创设计 -->
+          <template v-if="model.index === 1">
+            <div class="title-wrap" id="model1">
+              <span class="title">{{ model.model }}</span>
+              <span class="title-desc">{{ model.description }}</span>
+            </div>
+            <div class="model1">
+              <swiper :modules="modules" slides-per-view="auto" :freeMode="true" navigation>
+                <swiper-slide
+                  class="model-item"
+                  v-for="item in model.data"
+                  @click="preview(item.cover)"
+                >
+                  <img :src="item.cover" />
+                  <div>
+                    <p>{{ item.title }}</p>
+                    <span>{{ item.description }}</span>
+                  </div>
+                </swiper-slide>
+              </swiper>
+            </div>
+          </template>
+
           <!-- 比赛获奖 -->
           <template v-if="model.index === 2">
             <div class="title-wrap" id="model2">
@@ -127,29 +151,6 @@ fetch("/wyh-showcase/data.json")
                   <span class="desc">{{ item.description }}</span>
                 </div>
               </div>
-            </div>
-          </template>
-
-          <!-- 校园文创设计 -->
-          <template v-if="model.index === 1">
-            <div class="title-wrap" id="model1">
-              <span class="title">{{ model.model }}</span>
-              <span class="title-desc">{{ model.description }}</span>
-            </div>
-            <div class="model1">
-              <swiper :modules="modules" slides-per-view="auto" :freeMode="true" navigation>
-                <swiper-slide
-                  class="model-item"
-                  v-for="item in model.data"
-                  @click="preview(item.cover)"
-                >
-                  <img :src="item.cover" />
-                  <div>
-                    <p>{{ item.title }}</p>
-                    <span>{{ item.description }}</span>
-                  </div>
-                </swiper-slide>
-              </swiper>
             </div>
           </template>
         </template>
