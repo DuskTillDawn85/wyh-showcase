@@ -3,110 +3,114 @@
         {
             "index": 1,
             "model": "校园文创设计",
-            "description": "",
+            "description": "邂逅南国北师❤️",
             "data": [
                 {
                     "title": "卡套设计",
                     "description": "新生文创卡套设计",
-                    "cover": "./img/3-1.jpg"
+                    "cover": "/wyh-showcase/img/3-1.jpg"
                 },
                 {
                     "title": "笔记本设计",
                     "description": "院学代会笔记本设计",
-                    "cover": "./img/3-2.jpg"
+                    "cover": "/wyh-showcase/img/3-2.jpg"
                 },
                 {
                     "title": "帆布包设计",
                     "description": "院学代会文创设计(帆布包)",
-                    "cover": "./img/3-3.jpg"
+                    "cover": "/wyh-showcase/img/3-3.jpg"
                 },
                 {
                     "title": "文创设计",
                     "description": "院学代会文创设计(整体)",
-                    "cover": "./img/3-4.jpg"
+                    "cover": "/wyh-showcase/img/3-4.jpg"
                 }
             ]
         },
         {
             "index": 2,
             "model": "专业比赛证书",
-            "description": "广告专业参赛获奖证书",
+            "description": "广告专业参赛获奖证书🏆",
             "data": [
                 {
                     "title": "文案类",
                     "description": "2019秋季赛连花清瘟文案入围类01",
-                    "cover": "./img/2-1.jpg"
+                    "cover": "/wyh-showcase/img/2-1.jpg"
                 },
                 {
                     "title": "文案类",
                     "description": "2019秋季赛连花清瘟文案入围类02",
-                    "cover": "./img/2-2.jpg"
+                    "cover": "/wyh-showcase/img/2-2.jpg"
                 },
                 {
                     "title": "文案类",
                     "description": "2019秋季赛连花清瘟文案入围类03",
-                    "cover": "./img/2-3.jpg"
+                    "cover": "/wyh-showcase/img/2-3.jpg"
                 },
                 {
                     "title": "营销策划",
                     "description": "榄菊营销策划企业实效创意优秀奖",
-                    "cover": "./img/2-4.jpg"
+                    "cover": "/wyh-showcase/img/2-4.jpg"
                 },
                 {
                     "title": "营销策划",
                     "description": "学院奖营销策划 佳作奖（莎普爱思）",
-                    "cover": "./img/2-5.jpg"
+                    "cover": "/wyh-showcase/img/2-5.jpg"
                 },
                 {
                     "title": "营销策划",
                     "description": "学院奖营销策划 优秀奖（伊贝诗）",
-                    "cover": "./img/2-6.jpg"
+                    "cover": "/wyh-showcase/img/2-6.jpg"
                 },
                 {
                     "title": "营销策划",
                     "description": "学院奖营销策划 优秀奖（榄菊）",
-                    "cover": "./img/2-7.jpg"
+                    "cover": "/wyh-showcase/img/2-7.jpg"
                 },
                 {
                     "title": "其他",
                     "description": "学院奖H5移动交互类入围奖",
-                    "cover": "./img/2-8.jpg"
+                    "cover": "/wyh-showcase/img/2-8.jpg"
                 },
                 {
                     "title": "其他",
                     "description": "全国大学生广告艺术大赛 河北赛区三等奖",
-                    "cover": "./img/2-9.jpg"
+                    "cover": "/wyh-showcase/img/2-9.jpg"
                 }
             ]
         },
         {
             "index": 3,
             "model": "营销策划作品及其他",
-            "description": "阿巴阿巴",
+            "description": "阿巴阿巴📋",
             "data": [
                 {
-                    "title": "榄菊学院奖-杠精清除计划",
-                    "field": "营销策划作品",
+                    "title": "Eye的新蒸程",
+                    "field": "莎普爱思热敷蒸汽眼罩营销策划案",
+                    "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
+                    "cover": "./img/1-1.png",
+                    "pdf": "/wyh-showcase/pdf/eye.pdf"
+                },
+                {
+                    "title": "杠精清除计划",
+                    "field": "榄菊营销策划案",
                     "description": "“杠”是一种行为，也可以是一种质疑或否认，甚至是攻击。 然而当“杠精”遇上蚊子，二者又会产生什么样的化学反应？",
-                    "cover": "./img/1-1.png"
-                },
-                {
-                    "title": "Eye的新蒸程 莎普爱思热敷蒸汽眼罩营销策划案 ",
-                    "field": "营销策划作品",
-                    "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
-                    "cover": "./img/1-2.png"
-                },
-                {
-                    "title": "班级微信公众号运营数据情况",
-                    "field": "公众号运营",
-                    "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
-                    "cover": "./img/4-1.png"
+                    "cover": "./img/1-2.png",
+                    "pdf": "/wyh-showcase/pdf/lanju.pdf"
                 },
                 {
                     "title": "班团活动组织",
-                    "field": "营销策划作品",
-                    "description": "以产品认知为基础，以‘新”为体，以“蒸”为核，以‘'程”为辅，从认知-体驼-传播三层开尾营销策略构建，循序渐进，全程疡透",
-                    "cover": "./img/4-2.png"
+                    "field": "班团活动组织",
+                    "description": "待补充文字",
+                    "cover": "./img/4-1.png",
+                    "pdf": "/wyh-showcase/pdf/work.pdf"
+                },
+                {
+                    "title": "公众号运营",
+                    "field": "班级微信公众号运营数据情况",
+                    "description": "待补充文字",
+                    "cover": "./img/4-2.png",
+                    "pdf": "/wyh-showcase/pdf/wx.pdf"
                 }
             ]
         }
