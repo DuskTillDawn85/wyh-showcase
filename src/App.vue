@@ -9,6 +9,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import avatar from "./assets/img/avatar.jpg";
 
 window.onresize = () => (width.value = window.innerWidth);
 const width = ref(window.innerWidth);
@@ -19,27 +20,14 @@ const showNav = ref(false);
 const toggleNav = () => (showNav.value = !showNav.value);
 
 // 页面数据加载
-const product = ref([]);
-const cases = ref([]);
+const listdata = ref([]);
 const isLoad = ref(false);
 fetch("/wyh-showcase/data.json")
   .then(res => res.json())
   .then(data => {
-    product.value = data.product;
-    cases.value = data.cases;
-    console.log("cases.value :>> ", cases.value);
+    listdata.value = data.data;
     isLoad.value = true;
   });
-
-// 控制对话框
-const currentTarget = ref({});
-const dialogVisible = ref(false);
-const showMore = scene => {
-  currentTarget.value = scene;
-  dialogVisible.value = true;
-};
-const onClose = () => s.value.slideTo(0);
-const onSwiper = swiper => (s.value = swiper);
 </script>
 
 <template>
@@ -47,11 +35,14 @@ const onSwiper = swiper => (s.value = swiper);
   <el-container>
     <el-header :height="width < 768 ? '60px' : '80px'">
       <div class="content-wrap header">
-        <div class="logo">Astore</div>
+        <div class="logo">
+          <el-avatar :src="avatar"></el-avatar>
+          玉米酱的作品集
+        </div>
         <template v-if="width > 992">
           <div>
             <span
-              v-for="(item, index) in product"
+              v-for="(item, index) in listdata"
               :key="index"
               v-scroll-to="'#model' + (index + 1)"
               class="nav-item"
@@ -70,7 +61,7 @@ const onSwiper = swiper => (s.value = swiper);
           <transition name="el-zoom-in-top" :duration="3000">
             <div v-show="showNav" class="nav-mobile-wrap">
               <span
-                v-for="(item, index) in product"
+                v-for="(item, index) in listdata"
                 :key="index"
                 @click="toggleNav"
                 v-scroll-to="'#model' + (index + 1)"
@@ -88,7 +79,8 @@ const onSwiper = swiper => (s.value = swiper);
       <!-- 顶部产品目录 -->
       <div class="content-wrap">
         <!-- 内容列表 -->
-        <template v-for="model in product">
+        <template v-for="model in listdata">
+          <!-- 校园文创设计 -->
           <template v-if="model.index === 1">
             <div class="title-wrap" id="model1">
               <span class="title">{{ model.model }}</span>
@@ -107,96 +99,64 @@ const onSwiper = swiper => (s.value = swiper);
             </div>
           </template>
 
-          <!-- 视觉感知云平台 -->
+          <!-- 比赛获奖 -->
+          <template v-if="model.index === 2">
+            <div class="title-wrap" id="model2">
+              <span class="title">{{ model.model }}</span>
+              <span class="title-desc">{{ model.description }}</span>
+            </div>
+            <div class="model2">
+              <!-- swiper -->
+              <swiper
+                @swiper="onSwiper"
+                :modules="modules"
+                slides-per-view="auto"
+                :freeMode="true"
+                navigation
+                loop
+                centeredSlides
+              >
+                <swiper-slide class="model2-item" v-for="item in model.data">
+                  <div class="des">{{ item.description }}</div>
+                  <img :src="item.cover" />
+                </swiper-slide>
+              </swiper>
+            </div>
+          </template>
+
+          <!-- PDF -->
           <template v-if="model.index === 3">
             <div class="title-wrap" id="model3">
               <span class="title">{{ model.model }}</span>
               <span class="title-desc">{{ model.description }}</span>
             </div>
             <div class="model3">
-              <div class="model3-item" v-for="item in model.data">
-                <div class="model3-item-title">
-                  <img :src="item.img" />
-                  <p>{{ item.title }}</p>
-                </div>
-                <span>{{ item.description }}</span>
-              </div>
+              <swiper :modules="modules" slides-per-view="auto" :freeMode="true" navigation>
+                <swiper-slide class="model-item" v-for="item in model.data">
+                  <div class="pdf-content">
+                    <p>{{ item.title }}</p>
+                    <span class="field">{{ item.field }}</span>
+                    <span>{{ item.description }}</span>
+                  </div>
+                  <div class="img-wrap">
+                    <img :src="item.cover" />
+                  </div>
+                </swiper-slide>
+              </swiper>
             </div>
           </template>
         </template>
-
-        <!-- 底部案例 -->
-        <div class="title-wrap">
-          <span class="title">案例</span>
-        </div>
-        <div class="pdf-wrap">
-          <swiper :modules="modules" slides-per-view="auto" :freeMode="true" navigation>
-            <swiper-slide class="model-item" v-for="item in cases">
-              <div class="pdf-content">
-                <p>{{ item.title }}</p>
-                <span class="field">{{ item.field }}</span>
-                <span>{{ item.description }}</span>
-              </div>
-              <div class="img-wrap">
-                <img :src="item.cover" />
-              </div>
-            </swiper-slide>
-          </swiper>
-        </div>
       </div>
     </el-main>
 
-    <el-footer
-      >Copyright © Shawn 2021
+    <el-footer>
+      Copyright © Shawn 2021
       <br />
       <el-link :underline="false" href="https://beian.miit.gov.cn/">
         网站备案号 浙ICP备19011862号-1
       </el-link>
     </el-footer>
   </el-container>
-
-  <!-- 对话框 -->
-  <el-dialog
-    v-model="dialogVisible"
-    custom-class="dialog"
-    top="15vh"
-    @close="onClose"
-    append-to-body
-    :show-close="false"
-    lock-scroll
-  >
-    <img @click="dialogVisible = false" src="./assets/img/icon_close.png" class="close" />
-    <swiper
-      :modules="modules"
-      effect="fade"
-      slides-per-view="auto"
-      @swiper="onSwiper"
-      :freeMode="true"
-      :pagination="{
-        dynamicBullets: true,
-      }"
-      :navigation="width > 768"
-    >
-      <swiper-slide class="model-item" v-for="item in currentTarget">
-        <div class="content">
-          <div class="title">
-            {{ item.title }}
-          </div>
-          <div class="desc">{{ item.description }}</div>
-          <el-image v-if="item.image" :src="item.image" fit="contain" style="width: 100%">
-            <template #placeholder>
-              <el-skeleton style="width: 100%; height: 100%" animated>
-                <template #template>
-                  <el-skeleton-item variant="image" style="width: 100%; height: 100%" />
-                </template>
-              </el-skeleton>
-            </template>
-          </el-image>
-          <video v-else-if="item.video" :src="item.video" autoplay loop></video>
-        </div>
-      </swiper-slide>
-    </swiper>
-  </el-dialog>
 </template>
 
 <style></style>
