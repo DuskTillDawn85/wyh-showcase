@@ -82,7 +82,6 @@ fetch("/wyh-showcase/data.json")
       <div class="content-wrap">
         <!-- 内容列表 -->
         <template v-for="model in listdata">
-          
           <!-- 校园文创设计 -->
           <template v-if="model.index === 1">
             <div class="title-wrap" id="model1">
@@ -158,8 +157,8 @@ fetch("/wyh-showcase/data.json")
     </el-main>
 
     <el-footer>
-      Copyright © Shawn 2021 | Powered By
-      <el-link :underline="false" href="https://pages.github.com/"> GitHub Pages </el-link>
+      Copyright © Shawn 2021
+      <!-- | Powered By <el-link :underline="false" href="https://pages.github.com/"> GitHub Pages </el-link> -->
     </el-footer>
   </el-container>
 </template>
