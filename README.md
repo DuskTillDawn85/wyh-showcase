@@ -1,7 +1,6 @@
-# wyh show case:
+# WYH's Personal Showcase
 
-**GitHub Pages**: [https://dusktilldawn85.github.io/wyh-showcase/](https://dusktilldawn85.github.io/wyh-showcase/)
+**wyh is a friend of mine. This website is build for his job interview.📋**
 
-**Gitee Pages**: [https://dusktilldawn.gitee.io/wyh-showcase](https://dusktilldawn.gitee.io/wyh-showcase)
+![图片预览](src/assets/img/preview.png)
 
-**私人服务器地址**:[http://101.43.177.122/showcase/](http://101.43.177.122/showcase/)
